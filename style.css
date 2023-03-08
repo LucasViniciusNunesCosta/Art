@@ -1,82 +1,120 @@
-body{
-    background-color: #F9F9F9;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: arial;
+body {
+  background-color: #f9f9f9;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: arial;
 }
-.logo{
-    color: #0C0C0C;
-    font-weight: 600;
-    font-size: 2rem;
+.logo {
+  color: #0c0c0c;
+  font-weight: 600;
+  font-size: 2rem;
 }
-.header{
-    margin-top: 2.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    height: 15vh;
+.header {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 15vh;
 }
-.header__campo-busca{
-    width: 40rem;
-    height: 2.5rem;
-    background-color: #EBEBEB;
-    color: #737373;
-    border: none;
-    border-radius: .25rem;
-    box-sizing: border-box;
-    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+.header__campo-busca {
+  width: 40rem;
+  height: 2.5rem;
+  background-color: #ebebeb;
+  color: #737373;
+  border: none;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
 }
-.header__btn-entrar{
-    width: 11.75rem;
-    height: 2.5rem;
-    border: none;
-    border-radius: .25rem;
-    color: #fff;
-    background: #3772FF;
-}
-
-.secao__novos-artistas{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+.header__btn-entrar {
+  width: 11.75rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3772ff;
 }
 
-.novos-artistas__title{
-    font-weight: 600;
-    font-size: 3rem;
-    margin-bottom: 0;
-}
-.novos-artistas__subtitle{
-    font-weight: 400;
-    font-size: 24px;
-    color: #737373;
-}
-.novos-artistas__btn{
-    width: 11.75rem;
-    height: 2.5rem;
-    border: none;
-    border-radius: .25rem;
-    color: #fff;
-    background: #3772FF;
-}
-.novos-artitas__numeros{
-    display: flex;
-    margin-top: 3rem;
-    gap: 2.9rem;
-}
-.numeros__block{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
-.numeros__block > .numero{
-    font-weight: 600;
-    font-size: 2rem;
-    color: #0C0C0C;
+.secao__novos-artistas {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 5rem;
 }
 
-.numeros__block > .categoria{
-    font-weight: 500;
-    font-size: 16px;
-    color: #737373;
+.novos-artistas__title {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 0;
 }
+.novos-artistas__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  color: #737373;
+}
+.novos-artistas__btn {
+  width: 11.75rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3772ff;
+}
+.novos-artitas__numeros {
+  display: flex;
+  margin-top: 3rem;
+  gap: 2.9rem;
+}
+.numeros__block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.numeros__block > .numero {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #0c0c0c;
+}
+
+.numeros__block > .categoria {
+  font-weight: 500;
+  font-size: 16px;
+  color: #737373;
+}
+
+.secao__ultimas-colecoes {
+  display: flex;
+  justify-content: space-between;
+}
+.ultimas-colecoes__galeria {
+  display: flex;
+  gap: 3rem;
+}
+.ultimas-colecoes__galeria__image {
+  width: 12.5rem;
+  height: 12rem;
+}
+.ultimas-colecoes__galeria__image:nth-child(1) {
+  background-image: url("./src/images/img\ 1.png");
+}
+.ultimas-colecoes__galeria__image:nth-child(2) {
+  background-image: url("./src/images/img\ 2.png");
+}
+.ultimas-colecoes__galeria__image:nth-child(3) {
+  background-image: url("./src/images/img\ 3.png");
+}
+
+.ultimas-colecoes__confira__text {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.ultimas-colecoes__confira__btn {
+  width: 11.75rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: #3772ff;
+}
+
