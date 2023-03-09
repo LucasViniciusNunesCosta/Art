@@ -117,4 +117,44 @@ body {
   color: #fff;
   background: #3772ff;
 }
-
+.secao__artistas__titulo {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .artisas__container-imagens {
+    display: flex;
+    gap: 1.25rem;;
+  }
+  .artistas__image {
+    width: 24rem;
+    height: 30rem;
+    border-radius: .25rem;
+    color: #F9F9F9;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  .artistas__image:nth-child(1){
+      background: linear-gradient(
+          0deg,
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(./src/images/Sabine.png);
+  }
+  .artistas__image:nth-child(2){
+      background: linear-gradient(
+          0deg,
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(./src/images/Eleanor.png); 
+  }
+  .artistas__image:nth-child(3){
+      background: linear-gradient(
+          0deg,
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(./src/images/Leslie.png);
+  }
