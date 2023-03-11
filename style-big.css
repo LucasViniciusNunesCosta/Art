@@ -1,0 +1,26 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    .secao__novos-artistas {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 5rem;
+      }
+      .novos-artistas__container-right{
+        display: none;
+      }
+      .secao__ultimas-colecoes{
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+      .ultimas-colecoes__galeria{
+        gap: 1rem;
+      }
+      .ultimas-colecoes__galeria__image {
+        width: 12.5rem;
+        height: 12rem;
+      }
+}
