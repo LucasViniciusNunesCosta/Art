@@ -83,6 +83,13 @@ body {
   font-size: 16px;
   color: #737373;
 }
+.novos-artistas__container-right{
+  height: 27vw;
+  width: 25vw;
+  background-image: url("./src/images/imagem\ direita.png");
+  background-repeat: no-repeat;
+  background-size: Cover;
+}
 
 .secao__ultimas-colecoes {
   display: flex;

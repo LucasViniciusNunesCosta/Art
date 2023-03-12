@@ -1,3 +1,55 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
-
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .header{
+        height: auto;
+      }
+      .header__campo-busca{
+        display: none;
+      }
+      .header__btn-entrar{
+        display: none;
+      }
+      .secao__novos-artistas {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 5rem;
+      }
+      .novos-artistas__container-right{
+        display: none;
+      }
+      .secao__ultimas-colecoes{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 1rem;
+      }
+      .ultimas-colecoes__galeria{
+        display: flex;
+        flex-direction: column;
+      }
+      .ultimas-colecoes__galeria__image{
+        width: 85vw;
+        height: 80vw;
+      }
+      .artisas__container-imagens{
+        flex-direction: column;
+      }
+      .artistas__image{
+        width: 85vw;
+      }
+      .footer{
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+      }
+      .footer__nav{
+        justify-content: space-between;
+      }
+      .footer__nav > ul{
+        padding: 0;
+        gap: 1.5rem;
+      }
 }
