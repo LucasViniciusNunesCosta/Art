@@ -96,6 +96,8 @@ body {
 .ultimas-colecoes__galeria__image {
   width: 12.5rem;
   height: 12rem;
+  background-repeat: no-repeat;
+  background-size: Cover;
 }
 .ultimas-colecoes__galeria__image:nth-child(1) {
   background-image: url("./src/images/img\ 1.png");
