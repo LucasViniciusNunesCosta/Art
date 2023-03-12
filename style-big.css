@@ -9,8 +9,15 @@
         align-content: center;
         margin-bottom: 5rem;
       }
+      .novos-artistas__title{
+        margin: 0;
+      }
       .novos-artistas__container-right{
-        display: none;
+        height: 27.25rem;
+        width: 24.75rem;
+        background-image: url("./src/images/imagem\ direita.png");
+        background-repeat: no-repeat;
+        background-size: Cover;
       }
       .secao__ultimas-colecoes{
         flex-direction: column-reverse;
